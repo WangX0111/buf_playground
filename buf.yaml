@@ -1,0 +1,12 @@
+version: v1
+# <snip>
+deps:
+  - buf.build/bufbuild/protovalidate
+breaking:
+  use:
+    - FILE
+lint:
+  use:
+    - DEFAULT
+  ignore:
+    - buf.build/bufbuild/protovalidate
